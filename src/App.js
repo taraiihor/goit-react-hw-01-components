@@ -7,10 +7,9 @@ import TransactionHistory from './components/TransactionHistory';
 export default function App() {
   return (
     <div>
+      <SocialProfileList user={users} />;
+      <FriendList friends={friends} />;
       <TransactionHistory items={transactions} />
     </div>
   );
 }
-
-// <SocialProfileList user={users} />;
-// <FriendList friends={friends} />;
