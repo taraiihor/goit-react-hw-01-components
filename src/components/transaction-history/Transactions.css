@@ -1,0 +1,15 @@
+.transaction-history {
+  margin: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+TABLE {
+  width: 300px;
+  border-collapse: collapse;
+  border: 2px solid white;
+}
+TD,
+TH {
+  padding: 3px;
+  border: 1px solid black;
+  text-align: center;
+}

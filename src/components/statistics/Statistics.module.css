@@ -1,0 +1,26 @@
+.statistics {
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.title {
+  padding-top: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.statList {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+.item {
+  display: block;
+  border: 2px solid rgb(32, 59, 180);
+  width: 50px;
+  text-align: center;
+}
+.label {
+  display: block;
+}
+.percentage {
+  display: block;
+}

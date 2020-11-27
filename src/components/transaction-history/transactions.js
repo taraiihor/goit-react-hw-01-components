@@ -1,3 +1,5 @@
+import './Transactions.css';
+import PropTypes from 'prop-types';
 const Transactions = ({ type, amount, currency }) => {
   return (
     <tr>
@@ -7,5 +9,9 @@ const Transactions = ({ type, amount, currency }) => {
     </tr>
   );
 };
-
+Transactions.propTypes = {
+  type: PropTypes.string.isRequired,
+  amount: PropTypes.string.isRequired,
+  currency: PropTypes.string.isRequired,
+};
 export default Transactions;

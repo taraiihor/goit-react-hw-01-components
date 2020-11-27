@@ -1,0 +1,30 @@
+.Container__friends {
+  display: flex;
+  align-items: center;
+
+  width: 300px;
+  height: 80px;
+  margin: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.Status {
+  width: 15px;
+  height: 15px;
+  margin: 20px;
+  border-radius: 50%;
+  background: green;
+}
+.Avatar {
+  margin: 0 10px;
+}
+.Name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.offStatus {
+  width: 15px;
+  height: 15px;
+  margin: 20px;
+  border-radius: 50%;
+  background: red;
+}

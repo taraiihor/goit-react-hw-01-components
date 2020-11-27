@@ -1,4 +1,6 @@
 import Profile from '../components/social-profile/Profile';
+import PropTypes from 'prop-types';
+
 function ProfileList({ user }) {
   return (
     <Profile

@@ -1,12 +1,12 @@
-import Transactions from '../components/transaction-history/transactions';
+import Transactions from './transaction-history/Transactions';
 function TransactionHistory({ items, children }) {
   return (
-    <table class="transaction-history">
+    <table className="transaction-history">
       <thead>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className="container__tabl">Type</th>
+          <th className="container__tabl">Amount</th>
+          <th className="container__tabl">Currency</th>
         </tr>
       </thead>
 
@@ -21,29 +21,7 @@ function TransactionHistory({ items, children }) {
         ))}
       </tbody>
     </table>
-    // <tbody>
-    //
-    // </tbody>
   );
 }
 
 export default TransactionHistory;
-
-// function PaintingList({ items }) {
-//   return (
-//     <ul>
-//       {items.map(item => (
-//         <li key={item.id}>
-//           <Painting
-//             url={item.url}
-//             title={item.title}
-//             authorUrl={item.author.url}
-//             price={item.price}
-//             authorTag={item.author.tag}
-//             quantity={item.quantity}
-//           />
-//         </li>
-//       ))}
-//     </ul>
-//   );
-// }

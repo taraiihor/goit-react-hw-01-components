@@ -1,4 +1,4 @@
-import Friends from '../components/friend/friends';
+import Friends from './friend/Friends';
 
 function FriendList({ friends }) {
   return (
